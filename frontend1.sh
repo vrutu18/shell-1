@@ -3,7 +3,7 @@ dnf install nginx -y &>/tmp/expense.log
 echo exist status - $?
 
 echo -e "\e[33m copying expense.conf\e[0m"
-cp expense.conf/etc/nginx/default.d/expense.conf &>/tmp/expense.log
+cp  expense.conf/etc/nginx/default.d/expense.conf &>/tmp/expense.log
 echo exist status - $?
 
 echo -e "\e[33m remove content\e[0m"
